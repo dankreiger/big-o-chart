@@ -1,3 +1,7 @@
-Big O Chart:
+## Big O Notation Chart
 
-http://swift-thunder.surge.sh/
+#### [Live](http://big-o.surge.sh/)
+
+***
+
+<img src="./big-o.png">
