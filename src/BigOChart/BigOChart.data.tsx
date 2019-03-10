@@ -4,7 +4,7 @@ const defaultData = {
   borderColor: "#00ff00"
 };
 const c = 2;
-const orderN = (n: (n: number) => number) => Array(10).fill(0).map((e, i) => n(i));
+const orderN = (n: (n: number) => number) => Array(10).fill(0).map((e, i) => n(i + 1));
 
 const O1 = orderN((i) => i - i);
 const Ologn = orderN(Math.log);
