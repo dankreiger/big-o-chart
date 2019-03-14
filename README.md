@@ -1,6 +1,6 @@
 ## Big O Notation Chart
 
-#### [Live](http://big-o.surge.sh/)
+#### [Live](https://big-o.surge.sh/)
 
 ***
 
