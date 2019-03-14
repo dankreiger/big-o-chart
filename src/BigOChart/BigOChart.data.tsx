@@ -1,8 +1,9 @@
 const defaultData = {
   fill: false,
   backgroundColor: "#00ff00",
-  borderColor: "#00ff00"
+  borderColor: "#00ff00",
 };
+
 const c = 2;
 const orderN = (n: (n: number) => number) => Array(10).fill(0).map((e, i) => n(i + 1));
 
@@ -14,7 +15,7 @@ const Onc = orderN((i) => i ** c);
 const Ocn = orderN((i) => c ** i);
 
 export const chartData = {
-  labels: On,
+  labels: Array(10).fill(0).map((e, i) => i + 1),
   datasets: [
     {
       label: "O(1) constant",
@@ -58,3 +59,11 @@ export const chartData = {
     }
   ]
 };
+
+export const options = {
+  title: {
+    display: "This is the chart tile",
+    text: ` Big 0 (c = 2) click the legend`,
+    fontSize: 36
+  }
+}
